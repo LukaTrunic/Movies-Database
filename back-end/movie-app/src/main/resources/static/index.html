@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <style>
+        * {
+            font-family: Consolas,serif;
+            color:white;
+            background-color: black;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <ul id="movieList"></ul>
+    <ul id="actorList"></ul>
+    <script>
+        const movieList = document.getElementById('movieList')
+        fetch('/api/movie')
+        .then(rsp=>rsp.json())
+        .then(data=>{
+            console.log(data)
+            data.forEach(obj=>{
+                const liM = document.createElement('li')
+                liM.innerText = `${obj.title} ${obj.releaseYear} ${obj.genre} ${obj.rating} `
+                liM.setAttribute('id', obj.id)
+                movieList.appendChild(liM)
+            })
+        })
+
+        const actorList = document.getElementById('actorList')
+        fetch('/api/actor')
+            .then(rsp=>rsp.json())
+            .then(data=>{
+                console.log(data)
+                data.forEach(obj=>{
+                    const liA = document.createElement('li')
+                    liA.innerText = `${obj.fullName} `
+                    liA.setAttribute('id', obj.id)
+                    actorList.appendChild(liA)
+                })
+            })
+    </script>
+</body>
+</html>
