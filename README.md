@@ -19,10 +19,9 @@ This is a full-stack movie management web application developed as a final unive
 
 ### Database:
 - MySQL / MariaDB
-- ER modeling (3 diagrams provided)
 
 
-## 📁 ER Diagrams
+## 📁 Table Data Previews
 
 - ![Movie Dataset](movie-database.png) 
 - ![Actor Dataset](actor-database.png)
