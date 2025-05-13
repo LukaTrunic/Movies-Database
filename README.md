@@ -69,7 +69,7 @@ npm run dev
 
 ## 📘 Documentation
 
-- Functional requirements and CRUD breakdown provided in `m2-documentation+frontend.docx`
+- Functional requirements and CRUD breakdown provided in `documentation+frontend.docx`
 - Code is organized and commented for clarity
 
 
