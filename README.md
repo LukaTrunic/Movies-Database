@@ -24,9 +24,9 @@ This is a full-stack movie management web application developed as a final unive
 
 ## 📁 ER Diagrams
 
-- `movie-database.png`: base movie table structure  
-- `actor-database.png`: actor entity and relationships  
-- `actor-movie-database.png`: many-to-many relationship between actors and movies
+- ![Movie Dataset](movie-database.png) 
+- ![Actor Dataset](actor-database.png)
+- ![Actor Movie Dataset](actor-movie-database.png)
 
 
 ## 🚀 How to Run
