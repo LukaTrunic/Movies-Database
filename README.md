@@ -31,11 +31,7 @@ This is a full-stack movie management web application developed as a final unive
 
 ## 🚀 How to Run
 
-### 1. Clone the project
-```bash
-git clone https://github.com/yourusername/movie-management-app.git
-cd movie-management-app
-```
+### 1. Download files
 
 ### 2. Setup the Database
 - Create a database using `movie-app-database.sql`
