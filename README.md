@@ -23,9 +23,9 @@ This is a full-stack movie management web application developed as a final unive
 
 ## 📁 Table Data Previews
 
-- ![Movie Dataset](movie-database.png) 
-- ![Actor Dataset](actor-database.png)
-- ![Actor Movie Dataset](actor-movie-database.png)
+![Movie Dataset](movie-database.png) 
+![Actor Dataset](actor-database.png)
+![Actor Movie Dataset](actor-movie-database.png)
 
 
 ## 🚀 How to Run
